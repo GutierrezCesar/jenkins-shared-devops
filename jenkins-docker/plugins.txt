@@ -1,22 +1,22 @@
 # Core / Configuration
-configuration-as-code:1932.v75cb_b_b_f2f387
+configuration-as-code:latest
 
 # Pipelines
-workflow-aggregator:600.vb_57cdd26fdd7
-pipeline-stage-view:2.34
-job-dsl:1.87
+workflow-aggregator:latest
+pipeline-stage-view:latest
+job-dsl:latest
 
-# Git — forzamos git-client seguro explícitamente
-git-client:4.7.0
-git:5.5.2
+# Git
+git-client:latest
+git:latest
 
 # Docker
-docker-workflow:580.vc0c340686b_54
+docker-workflow:latest
 
 # UI / UX
-blueocean:1.27.14
-timestamper:1.27
-ansicolor:1.0.2
+blueocean:latest
+timestamper:latest
+ansicolor:latest
 
 # Credentials
-credentials:1378.v5e4f1740f65f
+credentials:latest
