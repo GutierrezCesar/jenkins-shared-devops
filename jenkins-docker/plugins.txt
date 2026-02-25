@@ -1,10 +1,22 @@
-configuration-as-code:1963.v24e046127a_3f # Gestiona la configuracion de Jenkins via codigo (YAML)
-workflow-aggregator:596.v8c21c963d92d # Habilita Pipeline as Code para crear jobs con Jenkinsfile
-git:5.7.0 # Integracion con Git para checkout de codigo fuente
-docker-workflow:572.v950f58993843 # Soporte para comandos Docker dentro de pipelines
-blueocean:1.27.16 # Interfaz grafica moderna para pipelines
-credentials:1415.v831096eb_5534 # Gestiona credenciales (keys, passwords, tokens) de forma segura
-job-dsl:1.90 # Permite crear jobs via scripting Groovy
-pipeline-stage-view:2.34 # Vista visual de stages en pipelines (complementa Blue Ocean)
-timestamper:1.28 # Agrega timestamps a los logs de build
-ansicolor:1.0.6 # Soporte para colores ANSI en la salida de consola
+# Core / Configuration
+configuration-as-code:1932.v75cb_b_b_f2f387
+
+# Pipelines
+workflow-aggregator:600.vb_57cdd26fdd7
+pipeline-stage-view:2.34
+job-dsl:1.87
+
+# Git — forzamos git-client seguro explícitamente
+git-client:4.7.0
+git:5.5.2
+
+# Docker
+docker-workflow:580.vc0c340686b_54
+
+# UI / UX
+blueocean:1.27.14
+timestamper:1.27
+ansicolor:1.0.2
+
+# Credentials
+credentials:1378.v5e4f1740f65f
