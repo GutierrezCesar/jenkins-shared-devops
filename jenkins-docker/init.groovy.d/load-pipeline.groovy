@@ -21,7 +21,7 @@ def job = jenkins.getItem(jobName)
 
 if (job != null) {
     println "Job '${jobName}' existe. Eliminando para recrear..."
-    jenkins.deleteItem(jobName)
+    job.delete()
 }
 
 def newJob = new WorkflowJob(jenkins, jobName)

@@ -1,5 +1,5 @@
-# Lista completa de plugins exportada del Jenkins original 2.462.2
-# Instalados en Jenkins 2.504.3-lts-jdk17 (versiones resueltas automaticamente)
+# Plugins exportados de jenkins.ce.convene.com (2026-02-28)
+# Jenkins local: 2.541.2-lts-jdk17
 
 amazon-ecr
 amazon-ecs
@@ -13,6 +13,7 @@ audit-trail
 authentication-tokens
 aws-credentials
 aws-global-configuration
+aws-java-sdk
 aws-java-sdk-api-gateway
 aws-java-sdk-autoscaling
 aws-java-sdk-cloudformation
@@ -35,7 +36,6 @@ aws-java-sdk-secretsmanager
 aws-java-sdk-sns
 aws-java-sdk-sqs
 aws-java-sdk-ssm
-aws-java-sdk
 bitbucket-build-status-notifier
 bitbucket-push-and-pull-request
 bootstrap5-api
@@ -57,14 +57,15 @@ commons-compress-api
 commons-lang3-api
 commons-text-api
 config-file-provider
+configuration-as-code
 copyartifact
-credentials-binding
 credentials
+credentials-binding
 dark-theme
 dashboard-view
 data-tables-api
-database-postgresql
 database
+database-postgresql
 display-url-api
 docker-build-step
 docker-commons
@@ -77,8 +78,8 @@ echarts-api
 eddsa-api
 email-ext
 embeddable-build-status
-envinject-api
 envinject
+envinject-api
 extended-read-permission
 external-monitor-job
 favorite
@@ -88,15 +89,15 @@ font-awesome-api
 forensics-api
 generic-event
 generic-webhook-trigger
+git
 git-client
 git-server
-git
+github
 github-api
 github-branch-source
-github
 gson-api
 handy-uri-templates-2-api
-htmlpublisher
+htmlpublisher:425
 http_request
 instance-identity
 ionicons-api
@@ -115,8 +116,8 @@ jnr-posix-api
 job-dsl
 jobConfigHistory
 joda-time-api
-jquery3-api
 jquery
+jquery3-api
 jsch
 json-api
 json-path-api
@@ -143,7 +144,7 @@ node-iterator-api
 nodejs
 nodelabelparameter
 okhttp-api
-opentelemetry
+opentelemetry:3.1543.v8446b_92b_cd64
 pam-auth
 performance
 pipeline-build-step
@@ -167,14 +168,14 @@ postgresql-api
 powershell
 prism-api
 prometheus
-publish-over-ssh
 publish-over
+publish-over-ssh
 pubsub-light
 python
 resource-disposer
 role-strategy
 s3
-saml
+saml:4.583.vc68232f7018a_
 scm-api
 script-security
 scriptler
