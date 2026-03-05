@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "Jenkins configured automatically via Docker + JCasC"
+  systemMessage: "Jenkins Paul configured automatically via Docker + JCasC"
 
   numExecutors: 2
   mode: NORMAL
